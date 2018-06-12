@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+
+ html body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6rem;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    background-image: url("../images/gun_metal.png");
+    /* background-size: 100% auto; */
+    background-repeat: repeat;
+    overflow: invisible;
+  }
+
+  h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+
+  .navbar {
+      height: 70px;
+  }
+  .mainHeader {
+    height: 70px;
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    margin: 0 auto 0 auto;
+    color: white;
+    /* padding-top: 23px; */
+    text-align: center;
+    width: 15%;
+    background-color: #4aaaa5;
+  }
+
+  .mainHeader h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .contentHeading {
+    font-size: 32px;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+  }
+
+  .imageDim {
+    max-width: 360px;
+    max-height: 240px;
+  }
+  .card-img-top {
+    max-width: 360px;
+    max-height: 240px;
+    object-fit: cover;
+  }
+
+  #push {
+      margin-top: 70px;
+  }
+
+  .widgetPic {
+    margin-top: 150px;
+  }
+
+  #push {
+    margin-bottom: 100px;
+  }
+  footer {
+    color: white;
+  }
+  footer.custBorder{
+    border-top: 8px solid #4aaaa5;
+  }
