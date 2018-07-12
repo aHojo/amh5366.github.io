@@ -8,19 +8,29 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="mainHeader text-center pt-3 pb-1 px-3">    
-                    <h1>Andrew Hojnowski</h1>
-                </div>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="nav navbar-nav ml-auto">
-                        <a class="nav-item nav-link border-right" href="index.html">About <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link border-right" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link active" href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </nav>
-            
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="mainHeader text-center pt-3 pb-1 px-3">
+            <h1>Andrew Hojnowski</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ml-auto navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link disabled" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
             <div class="container border mt-5 bg-light">
                <div class="border-bottom mt-4">
                 <h2 class="contentHeading">Contact</h2>
@@ -42,7 +52,7 @@
                     <button type="submit" class="btn btn-primary mb-3">Submit</button>
                   </form>
             </div>
-                
+
     <footer class="container-fluid custBorder bg-dark fixed-bottom">
         <nav class="navbar navbar navbar-expand-lg navbar-light bg-dark">
             <div class="mx-auto">
