@@ -21,23 +21,17 @@
   /* .navheight {
       height: 70px;
   }*/
-  .mainHeader {
-    height: 70px;
-    position: absolute;
-    left: 10%;
-    bottom: 0%;
-    margin: 0 auto 0 auto;
+  #mainHeader {
+    height: 100%;
+    font-weight: bold;
     color: white;
-    padding-top: 23px;
-    text-align: center;
-    width: 15%;
     background-color: #4aaaa5;
   }
 
-  .mainHeader h1 {
+  /* .mainHeader h1 {
     font-size: 24px;
     font-weight: bold;
-  } 
+  }  */
 
   .contentHeading {
     font-size: 32px;
