@@ -1,129 +1,120 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gallery</title>
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css" /> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div id="mainHeader" class="navbar-brand mainHeader text-center pt-3 pb-1 px-3">
-                Andrew Hojnowski
-            </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="heads navbar navbar-expand-lg navbar-light bg-light" style="width: 100%">
+        <div id="mainHeader" class="heads bg-danger navbar-brand mainHeader text-center pt-3 pb-1 px-3">
+            Andrew Hojnowski
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="ml-auto navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="contact.html">Contact</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="contact.html">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container border mt-5 bg-light">
-        <div class="border-bottom mt-4">
-            <h2 class="contentHeading">Portfolio</h2>
+
+    <div id="contact-cont" class="heads container border bg-light">
+        <div class="border-bottom mt-3 text-center">
+            <h2 class="heads contentHeading text-danger">Portfolio</h2>
         </div>
 
-       <div class="container">
-            <div class="row ml-4 mt-4 justify-content-center">
-                <a href="https://amh5366.github.io/WordGuessGame/" class="card-link">
-                    <div class="text-center card text-light" style="width: 360px; height: 240px">
-                        <img src="assets/images/hangman.png" class="rounded card-img-top w-100 h-100" alt="...">
-                        <div class="card-img-overlay">
-                            <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> Hangman </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="card-link text-light">
-                        <div class="text-center card" style="width: 360px; height: 240px">
-                            <img src="assets/images/rpg.jpg" class="rounded card-img-top w-100 h-100" alt="...">
-                            <div class="card-img-overlay">
-                                <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> RPG Game </div>
-                            </div>
-                        </div>
-                </a>
-            </div>
-            <div class="row ml-4 mt-4 justify-content-center">
-                <a href="#" class="card-link">
-                        <div class="text-center card text-light" style="width: 360px; height: 240px">
-                            <img src="assets/images/trivia.jpg" class="rounded card-img-top w-100 h-100" alt="...">
-                            <div class="card-img-overlay">
-                                <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> Trivia Game </div>
-                            </div>
-                        </div>
-                </a>
-                <a href="#" class="card-link">
-                        <div class="text-center card text-light" style="width: 360px; height: 240px">
-                            <img src="assets/images/rutgersthumb.jpg" class="rounded card-img-top w-100 h-100" alt="...">
-                            <div class="card-img-overlay">
-                                <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> Rutgers Info Widget</div>
-                            </div>
-                        </div>
-                </a>
-            </div>
-            <div class="row ml-4 mt-4 mb-4 justify-content-center">
-                <a href="https://amh5366.github.io/rockPaperScissors/" class="card-link">
-                        <div class="text-center card text-light" style="width: 360px; height: 240px">
-                            <img src="assets/images/rockpaper.jpg" class="rounded float-left card-img-top w-100 h-100" alt="...">
-                            <div class="card-img-overlay w-100">
-                                <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> Rock Paper Scissors </div>
-                            </div>
-                        </div>
-                </a>
-                <a href="https://amh5366.github.io/CrystalCollector/" class="card-link">
-                <div class="text-center card text-light" style="width: 360px; height: 240px">
-                    <img src="assets/images/rutgersthumb.jpg" class="rounded card-img-top w-100 h-100" alt="...">
+        <div class="card-deck mt-3">
+            <a href="https://amh5366.github.io/WordGuessGame/" class="card-link mx-auto">
+                <div class="text-center card text-light" style="width: 300px; height: 200px">
+                    <img src="assets/images/hangman.jpg" class="rounded card-img-top w-100 h-100" alt="...">
                     <div class="card-img-overlay">
-                        <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> Crystal Game</div>
+                        <div class="card-title border border-info bg-danger w-100 py-3 widgetPic"> Hangman </div>
                     </div>
                 </div>
             </a>
+            <div class="w-100 d-none d-sm-block d-md-none">
+                <!-- wrap every 2 on sm-->
             </div>
-            <div class="row ml-4 mt-4 mb-4 justify-content-center">
-                <a href="https://amh5366.github.io/WhatAGif/" class="card-link">
-                        <div class="text-center card text-light" style="width: 360px; height: 240px">
-                            <img src="assets/images/whatagif.gif" class="rounded float-left card-img-top w-100 h-100" alt="...">
-                            <div class="card-img-overlay w-100">
-                                <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> What A Gif </div>
-                            </div>
-                        </div>
-                </a>
-                <a href="https://amh5366.github.io/TrainTimeSheet/" class="card-link">
-                    <div class="text-center card text-light" style="width: 360px; height: 240px">
-                        <img src="assets/images/train.gif" class="rounded float-left card-img-top w-100 h-100" alt="...">
-                        <div class="card-img-overlay w-100">
-                            <div class="card-title border border-info bg-info w-100 py-3 widgetPic"> Train Time Sheet</div>
-                        </div>
+            <a href="https://http://amh5366.github.io/GameHub" class="card-link mx-auto">
+                <div class="text-center card text-light" style="max-width: 360px; max-height: 240px">
+                    <img src="assets/images/gamehub.png" class="rounded card-img-top w-100 h-100" alt="...">
+                    <div class="card-img-overlay">
+                        <div class="card-title border border-info bg-danger w-100 py-3 widgetPic"> Game Hub</div>
                     </div>
+                </div>
             </a>
-            </div>
+            <a href="https://amh5366.github.io/TriviaGame/" class="card-link mx-auto">
+                <div class="text-center card text-light" style="width: 300px; height: 200px">
+                    <img src="https://media.giphy.com/media/BTK92zTVQZopq/giphy.gif" class="rounded float-left card-img-top w-100 h-100" alt="...">
+                    <div class="card-img-overlay w-100">
+                        <div class="card-title border border-info bg-danger w-100 py-3 widgetPic"> Trivia Game </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://amh5366.github.io/WhatAGif/" class="card-link mx-auto">
+                <div class="text-center card text-light" style="width: 300px; height: 200px">
+                    <img src="https://media.giphy.com/media/CKAdUL5cM0zC0/giphy.gif" class="rounded float-left card-img-top w-100 h-100" alt="...">
+                    <div class="card-img-overlay w-100">
+                        <div class="card-title border border-info bg-danger w-100 py-3 widgetPic"> What A Gif </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://amh5366.github.io/TrainTimeSheet/" class="card-link mx-auto">
+                <div class="text-center card text-light" style="width: 300px; height: 200px">
+                    <img src="assets/images/train.jpg" class="rounded float-left card-img-top w-100 h-100" alt="...">
+                    <div class="card-img-overlay w-100">
+                        <div class="card-title border border-info bg-danger w-100 py-3 widgetPic"> Train Time </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 
-
-
-        <div id="push"></div>
+    <div id="push"></div>
     <footer class="container-fluid custBorder bg-dark">
         <nav class="navbar navbar navbar-expand-lg navbar-light bg-dark">
             <div class="mx-auto">
-                Copyright &copy;
+                <a id="git-footer" href="https://github.com/amh5366/">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a id="linkedin-footer" href="https://www.linkedin.com/in/aHojo">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </nav>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

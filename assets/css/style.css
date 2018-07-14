@@ -2,15 +2,18 @@
     box-sizing: border-box;
   }
 
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
  html body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.6rem;
-    margin: 0 auto 0 auto;
     height: 100%;
     background-image: url("../images/gun_metal.png");
-    /* background-size: 100% auto; */
     background-repeat: repeat;
-    overflow: invisible;
+    overflow: auto;
   }
 
   h1, h2 {
@@ -18,9 +21,21 @@
     font-weight: bold;
   }
 
+  
+#heading-name {
+  padding-top: 20px;
+}
+.heads {
+  font-family: 'Wendy One', sans-serif;
+  letter-spacing: 2px;
+}
   /* .navheight {
       height: 70px;
   }*/
+
+  #about-vid {
+    font-size: 12px;
+  }
   #mainHeader {
     height: 100%;
     font-weight: bold;
@@ -36,7 +51,9 @@
   .contentHeading {
     font-size: 32px;
     padding-bottom: 20px;
-    color: #4aaaa5;
+  }
+  #content-body {
+    clear: both;
   }
 
   .imageDim {
@@ -48,21 +65,43 @@
     max-height: 240px;
     object-fit: cover;
   }
-
+  /* .card-deck {
+    margin-left: 13%;
+  } */
   #push {
       margin-top: 70px;
   }
 
+  .card-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .widgetPic {
-    margin-top: 150px;
+    margin-top: 110px;
   }
 
   #push {
     margin-bottom: 100px;
   }
+
+  
+  #contact-cont {
+    
+    margin-top: 40px;
+  }
+  
   footer {
     color: white;
   }
   footer.custBorder{
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid red;
   }
+
+  #index-cont{
+    box-shadow: 3px 3px 3px red;
+  }
+
+  #contact-cont {
+    box-shadow: 3px 3px 3px red;
+  }
+  

@@ -1,73 +1,144 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>About Me</title>
-        <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body style="margin: 0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div id="mainHeader" class="navbar-brand mainHeader text-center pt-3 pb-1 px-3">
-                Andrew Hojnowski
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="ml-auto navbar-nav">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body style="margin: 0">
+    <nav class="heads navbar navbar-expand-lg navbar-light bg-light">
+        <div id="mainHeader" class="bg-danger heads navbar-brand mainHeader text-center pt-3 pb-1 px-3">
+            Andrew Hojnowski
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ml-auto navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link disabled" href="contact.html">Contact
+                        <span class="sr-only">(current)</span>
+                    </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
+            </ul>
+        </div>
+    </nav>
 
-        <div class="container border mt-5 bg-light">
-
-            <div class="border-bottom mt-4">
-                <h1 class="contentHeading">About Me</h1>
-            </div>
-                <div class="mt-4 mtx-4">
-                    <div class="float-left">
-                        <img class="img-fluid img-thumbnail mr-3 mb-3"  src="assets/images/indexphoto.jpg" alt="Placeholder" onmouseover="Placeholder">
+    <!--MODAL FOR MY VIDEO-->
+    <div class="modal fade bd-example-modal-lg" id="vid-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="text-danger modal-header">
+                    <h5 class="heads modal-title" id="exampleModalLongTitle">Life of Hojo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="vid-content" class="embed-responsive-item" src=""></iframe>
                     </div>
-                        <p>Hey! I'm Andrew! One of the most difficult decisions in my life was deciding to leave a comfortable, somewhat stable job to pursue a dream of mine, not knowing if I was going to succeed. That's never stopped me during my life though!
-                        If someone tells me I can not do something, I'm most certainly going to try, and bring with me all of the tenacity I have. This trait of mine has helped me tremendously. While in college to recieve my B.S. in Kinesiology, a teacher
-                        once told me that I'd never make it as a trainer, or have a career in sports medicine, because I was too shy. Which was the truth, I am introverted, and at the time, wasn't very fond of social interaction. That same week I applied and was accepted as a trainer
-                        for The Pennsylvania State University. It was uncomfortable for me, however, I was able to rid myself of that introverted side through sheer will.
-                        </p>
-                    <p>In a sense, that teacher was right. Even though I studied hard and recieved my CSCS (Certified Strength and Conditioning Specialist), I wouldn't make it as a Kinesiologist. The reason was, my heart was in Computer Science, developing and working with and on computers.
-                        I was lucky enough to start out as an intern as a  Linux Administrator, where I worked and studied hard enough to recieve a job offer at the end of the internship. I currenlty love my job as a Linux Systems Administrator. I still work hard to study, and keep up/be on par with my fellow team,
-                        but the transition was worth it! I want to extend my knowledge to those around me and help them in any way I can with computer science. The trainer in me will never leave, and I will always want to help people.
-                    </p>
-                    <p>In my free time (who has that anymore?!) I like to play games, and work gaining more knowledge in the development and systems administration department. I'm still very active, exercising 6 days a week. I believe this is one of the better habits that I have! I also try to talk to knew people everyday, because
-                        being social to me is a skill that without practice, can degrade. Working at a desk all day behind a screen doesn't provide a lot of in-person interaction after all!
-                    </p>
-                    <p>I have some lofty goals that I am working towards. Firstly, I want to work my way up to be a Senior Systems Administratror, and is my main motivation for studying hard. I also want to create. This is why I started to work on development in my spare time. I want to produce something that will be shared by thousands of people. The app I want to create still eludes me, but I have this end game of creating something magnificent.
-                        I also have a desire to improve the live of others, and help them through tough times. This leads me to my last two goals. I want to teach people, and give them the hope I had when switching careers. I want to teach the knowledge I've gained, I have given myself 10 years, but that could come sooner if I feel I've learned fast enough. I also want to stream,
-                        so I can influence people around the world! It's ambitious, but I believe I can do it!
-                    </p>
                 </div>
             </div>
+        </div>
+    </div>
+    <!--END MODAL-->
+    <div id="about-vid" class="mx-auto text-center text-danger mt-3">
+        <span>Skip the reading and watch a video about me! :)</span>
+        <button id="modal-btn" class="heads btn btn-danger btn-small" data-toggle="modal" data-target="#vid-modal">Click if Daring</button>
+    </div>
+    <div id="index-cont" class="container mt-3 bg-light">
 
-            <div id="push"></div>
+        <div id="heading-name" class="heads mt-3">
+            <h1 class="heads text-danger float-left contentHeading">About Me</h1>
+        </div>
+        <div id="content-body" class="mt-4 mtx-4">
+            <div class="float-left">
+                <img class="img-fluid img-thumbnail mr-3 mb-3" src="assets/images/indexphoto.jpg" alt="Placeholder" onmouseover="Placeholder">
+            </div>
+            <p>Hey! I'm Andrew! One of the most difficult decisions in my life was deciding to leave a comfortable, somewhat
+                stable job to pursue a dream of mine, not knowing if I was going to succeed. That's never stopped me during
+                my life though! If someone tells me I can not do something, I'm most certainly going to try, and bring with
+                me all of the tenacity I have. This trait of mine has helped me tremendously. While in college to recieve
+                my B.S. in Kinesiology, a teacher once told me that I'd never make it as a trainer, or have a career in sports
+                medicine, because I was too shy. Which was the truth, I am introverted, and at the time, wasn't very fond
+                of social interaction. That same week I applied and was accepted as a trainer for The Pennsylvania State
+                University. It was uncomfortable for me, however, I was able to rid myself of that introverted side through
+                sheer will.
+            </p>
+            <p>In a sense, that teacher was right. Even though I studied hard and recieved my CSCS (Certified Strength and Conditioning
+                Specialist), I wouldn't make it as a Kinesiologist. The reason was, my heart was in Computer Science, developing
+                and working with and on computers. I was lucky enough to start out as an intern as a Linux Administrator,
+                where I worked and studied hard enough to recieve a job offer at the end of the internship. I currenlty love
+                my job as a Linux Systems Administrator. I still work hard to study, and keep up/be on par with my fellow
+                team, but the transition was worth it! I want to extend my knowledge to those around me and help them in
+                any way I can with computer science. The trainer in me will never leave, and I will always want to help people.
+            </p>
+            <p>In my free time (who has that anymore?!) I like to play games, and work gaining more knowledge in the development
+                and systems administration department. I'm still very active, exercising 6 days a week. I believe this is
+                one of the better habits that I have! I also try to talk to knew people everyday, because being social to
+                me is a skill that without practice, can degrade. Working at a desk all day behind a screen doesn't provide
+                a lot of in-person interaction after all!
+            </p>
+            <p>I have some lofty goals that I am working towards. Firstly, I want to work my way up to be a Senior Systems Administratror,
+                and is my main motivation for studying hard. I also want to create. This is why I started to work on development
+                in my spare time. I want to produce something that will be shared by thousands of people. The app I want
+                to create still eludes me, but I have this end game of creating something magnificent. I also have a desire
+                to improve the live of others, and help them through tough times. This leads me to my last two goals. I want
+                to teach people, and give them the hope I had when switching careers. I want to teach the knowledge I've
+                gained, I have given myself 10 years, but that could come sooner if I feel I've learned fast enough. I also
+                want to stream, so I can influence people around the world! It's ambitious, but I believe I can do it!
+            </p>
+        </div>
+    </div>
 
-            <footer class="container-fluid custBorder bg-dark">
-                <nav class="navbar navbar navbar-expand-lg navbar-light bg-dark">
-                    <div class="mx-auto">
-                        Copyright &copy;
-                    </div>
-                </nav>
-            </footer>
-    </body>
+
+    <div id="push"></div>
+
+    <footer class="container-fluid custBorder bg-dark fixed-bottom">
+        <nav class="navbar navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="mx-auto">
+                <a id="git-footer" href="https://github.com/amh5366/">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a id="linkedin-footer" href="https://www.linkedin.com/in/aHojo">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </nav>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $('body').on('hidden.bs.modal', '.modal', function () {
+            $("#vid-content").attr('src', '');
+        });
+        $('#modal-btn').on("click", function() {
+            $('#vid-content').attr('src', "./assets/vid/upennproject.mp4");
+        });
+        </script>
+
+
+</body>
+
 </html>
