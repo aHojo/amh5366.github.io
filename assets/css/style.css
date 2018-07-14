@@ -104,4 +104,6 @@
   #contact-cont {
     box-shadow: 3px 3px 3px red;
   }
-  
+  .text {
+    line-height: .5rem;
+  }
